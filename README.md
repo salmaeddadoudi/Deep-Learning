@@ -6,28 +6,35 @@ artificiels, appelés réseaux de neurones profonds, pour modéliser et résoudr
 problèmes complexes. Les réseaux de neurones profonds sont caractérisés par leur 
 architecture composée de plusieurs couches de neurones, d'où le terme "profond".
 Voici quelques concepts clés liés au deep learning :
+
 • Réseaux Neuronaux Profonds : Ces réseaux sont composés de plusieurs couches 
 de neurones, comprenant généralement une couche d'entrée, une ou plusieurs 
 couches cachées et une couche de sortie. Chaque couche de neurones effectue des 
 transformations sur les données et apprend des caractéristiques de plus en plus 
 abstraites à mesure que l'on progresse dans le réseau.
+
 • Apprentissage Automatique Hiérarchique : Les réseaux de neurones profonds 
 apprennent de manière hiérarchique, en découvrant des représentations complexes 
 et abstraites à partir des données d'entrée. Chaque couche du réseau apprend à 
 représenter des caractéristiques de plus en plus abstraites et complexes.
+
 • Réseaux de Neurones Convolutifs (CNN) : Ces réseaux sont spécialement conçus 
 pour traiter des données structurées en grilles, telles que des images. Ils utilisent 
 des opérations de convolution pour extraire des caractéristiques spatiales des 
 données.
+
 • Réseaux Neuronaux Récurrents (RNN) : Ces réseaux sont adaptés pour travailler 
 avec des séquences de données, comme du texte ou des séquences temporelles. Ils 
 utilisent des connexions récurrentes pour mémoriser des informations du passé.
+
 • Fonctions d'Activation : Les fonctions d'activation, telles que ReLU (Rectified 
 Linear Unit), sont utilisées pour introduire de la non-linéarité dans les réseaux de 
 neurones, ce qui permet au modèle d'apprendre des relations complexes.
+
 • Applications : Le deep learning a été très réussi dans divers domaines, y compris la 
 vision par ordinateur, le traitement du langage naturel, la reconnaissance vocale, la 
 traduction automatique, les jeux, la santé, etc.
+
 # Projet DEEP LEARNING
 • Un réseau siamois utilise deux branches identiques qui partagent les mêmes poids. 
 Chaque branche prend en entrée une question. Les deux branches traitent les 
