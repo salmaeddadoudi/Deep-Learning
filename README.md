@@ -33,20 +33,25 @@ traduction automatique, les jeux, la santé, etc.
 Chaque branche prend en entrée une question. Les deux branches traitent les 
 questions de manière similaire et extraient des caractéristiques à partir de chaque 
 question.
+
 • Embeddings Partagés : Les représentations vectorielles des mots (embeddings) 
 sont souvent utilisées pour convertir les mots en des vecteurs numériques. Ces 
 embeddings sont partagés entre les deux branches du réseau.
+
 • Calcul de Similarité : Une fois que les deux branches ont transformé les questions 
 en représentations vectorielles, la similarité entre ces représentations est calculée. 
 Cela peut être fait en mesurant la distance euclidienne, la cosine similarity, ou en 
 utilisant une fonction de similarité appropriée.
+
 • Fonction de Perte : La fonction de perte mesure la différence entre la similarité 
 prédite par le modèle et la véritable similarité entre les paires de questions dans 
 l'ensemble d'entraînement. L'objectif est de minimiser cette différence.
+
 • Entraînement : Le réseau est entraîné sur un ensemble de paires de questions avec 
 leurs étiquettes de similarité correspondantes. Le modèle ajuste ses poids pour 
 apprendre à extraire des caractéristiques pertinentes et à prédire correctement la 
 similarité entre les paires de questions.
+
 • Utilisation pour l'Inference : Une fois entraîné, le modèle peut être utilisé pour 
 mesurer la similarité entre deux nouvelles questions qui n'ont pas été vues lors de 
 l'entraînement
